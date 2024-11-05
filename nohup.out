@@ -1,0 +1,83 @@
+[2024-11-04 21:23:49.040][d2c2][client.main][src/main.cpp:238][warning] Assuming last option as URL resource "%u"
+[2024-11-04 21:23:49.040][d2c2][client.clientsettings][src/clientsettings.cpp:59][info] XDG_SESSION_TYPE "X11"
+[2024-11-04 21:23:49.040][d2c2][client.clientsettings][src/clientsettings.cpp:60][info] XDG_CURRENT_DESKTOP ""
+[2024-11-04 21:23:49.040][d2c2][common.json][src/json.cpp:377][debug] Successfully read clientsettings.json
+[2024-11-04 21:23:49.040][d2c2][client.linux_env][src/linux/linux_env.cpp:21][info] XDG_CURRENT_DESKTOP= ""
+[2024-11-04 21:23:49.041][d2c2][client.linux_env][src/linux/linux_env.cpp:69][info] Detected desktop Unknown and RTL: 0
+[2024-11-04 21:23:49.049][d2c2][common.util][src/builtin/util.cpp:246][info] Initializing crash handler
+[2024-11-04 21:23:49.050][d2c2][common.logging][src/builtin/logging.cpp:314][info] Initializing LoggerPrivate
+[2024-11-04 21:23:49.050][d2c2][common.logging][src/builtin/logging.cpp:360][info] No debug.txt found; using default filter rules
+[2024-11-04 21:23:49.050][d2c2][common.appsingleton][src/appsingleton.cpp:43][warning] Unable to attach to shared memory ""
+[2024-11-04 21:23:49.050][d2c2][common.appsingleton][src/appsingleton.cpp:136][debug] Checking for another instance
+[2024-11-04 21:23:49.050][d2c2][common.appsingleton][src/appsingleton.cpp:160][debug] Value of shared memory data is  0
+[2024-11-04 21:23:49.050][d2c2][client.main][src/main.cpp:431][info] Current launch-on-login: 0
+[2024-11-04 21:23:49.050][d2c2][client.clientsettings][src/clientsettings.cpp:59][info] XDG_SESSION_TYPE "X11"
+[2024-11-04 21:23:49.050][d2c2][client.clientsettings][src/clientsettings.cpp:60][info] XDG_CURRENT_DESKTOP ""
+[2024-11-04 21:23:49.050][d2c2][regions.displaytext][src/displaytext.cpp:83][error] Invalid language code  in language tag
+[2024-11-04 21:23:49.050][d2c2][regions.displaytext][src/displaytext.cpp:54][error] Invalid language tag:  - Invalid language code
+[2024-11-04 21:23:49.050][d2c2][client.clientsettings][src/clientsettings.cpp:80][warning] Current language "" is not a valid BCP-47 tag, defaulting to en-US
+[2024-11-04 21:23:49.065][d2c2][client.client][src/client.cpp:427][info] Changed to locale "en-US"
+[2024-11-04 21:23:49.068][d2c2][qt.qml.typeregistration][??:0][warning] Invalid QML element name "NativeError"; value type names should begin with a lowercase letter
+[2024-11-04 21:23:49.068][d2c2][client.client][src/client.cpp:768][debug] Handling URL  "%u"
+[2024-11-04 21:23:49.068][d2c2][client.client][src/client.cpp:771][warning] Invalid scheme  ""
+[2024-11-04 21:23:49.077][7031][default][??:0][warning] Cyclic dependency detected between "qrc:/components/client/Client.qml" and "qrc:/components/daemon/DaemonState.qml"
+[2024-11-04 21:23:49.078][7031][default][??:0][warning] Cyclic dependency detected between "qrc:/components/client/Client.qml" and "qrc:/components/vpnconnection/VpnConnection.qml"
+[2024-11-04 21:23:49.108][d2c2][qml][qrc:/components/helpers/ConnStateHelper.qml:44][error] Unhandled connection state: 
+[2024-11-04 21:23:49.116][d2c2][client.platformscreens][src/platformscreens.cpp:34][info] Updating screens due to notification
+[2024-11-04 21:23:49.116][d2c2][client.platformscreens][src/platformscreens.cpp:46][info] Screens changed from ( 0 ):
+[2024-11-04 21:23:49.116][d2c2][client.platformscreens][src/platformscreens.cpp:48][info] to ( 2 ):
+[2024-11-04 21:23:49.116][d2c2][client.platformscreens][src/platformscreens.cpp:42][info] - 0 QRect(1920,0 1920x1080) QRect(1920,0 1920x1080) (primary)
+[2024-11-04 21:23:49.116][d2c2][client.platformscreens][src/platformscreens.cpp:42][info] - 1 QRect(0,461 1920x1080) QRect(0,461 1920x1080) 
+[2024-11-04 21:23:49.119][d2c2][client.nativehelpers][src/nativehelpers.cpp:189][info] requested alpha: -1 - actual alpha: -1
+[2024-11-04 21:23:49.119][d2c2][qt.qpa.xcb][??:0][warning] Unhandled client message:  "_NET_WM_NAME"
+[2024-11-04 21:23:49.120][d2c2][qt.qpa.xcb][??:0][warning] Unhandled client message:  "_NET_WM_NAME"
+[2024-11-04 21:23:49.120][d2c2][qt.qpa.xcb][??:0][warning] Unhandled client message:  "_NET_WM_NAME"
+[2024-11-04 21:23:49.120][d2c2][qt.qpa.xcb][??:0][warning] Unhandled client message:  "_NET_WM_NAME"
+[2024-11-04 21:23:49.171][d2c2][client.client][src/client.cpp:853][debug] Sending activate notification
+[2024-11-04 21:23:49.171][d2c2][common.jsonrpc][src/jsonrpc.cpp:322][info] Sending request QJsonValue(double, 1) to invoke RPC method "notifyClientActivate"
+[2024-11-04 21:23:49.365][d2c2][common.jsonrpc][src/jsonrpc.cpp:409][info] Request 1 succeeded
+[2024-11-04 21:23:49.365][d2c2][client.client][src/client.cpp:873][info] Client connected, loading UI
+[2024-11-04 21:23:49.425][d2c2][default][??:0][warning] QQmlEngine::setContextForObject(): Object already has a QQmlContext
+[2024-11-04 21:23:49.427][d2c2][qml][qrc:/components/dashboard/connect/ModuleSorter.qml:199][info] Added missing module connection
+[2024-11-04 21:23:49.427][d2c2][qml][qrc:/components/dashboard/connect/ModuleSorter.qml:199][info] Added missing module snooze
+[2024-11-04 21:23:49.430][d2c2][client.client][src/client.cpp:434][debug] Applying settings: {"themeName":"dark"}
+[2024-11-04 21:23:49.431][d2c2][common.json][src/json.cpp:391][debug] Successfully wrote clientsettings.json
+[2024-11-04 21:23:49.654][d2c2][qml][qrc:/components/dashboard/login/LoginPage.qml:174][info] map size: 0x0
+[2024-11-04 21:23:49.655][d2c2][qml][qrc:/components/dashboard/login/LoginPage.qml:174][info] map size: -28x-14
+[2024-11-04 21:23:49.655][d2c2][client.nativehelpers][src/nativehelpers.cpp:855][info] Observed connection to urlOpenRequested, check for queued URL event on main thread
+[2024-11-04 21:23:49.663][d2c2][qml][qrc:/components/dashboard/login/LoginPage.qml:174][info] map size: -556x-278
+[2024-11-04 21:23:49.726][d2c2][qml][qrc:/components/dashboard/login/LoginPage.qml:174][info] map size: 260x130
+[2024-11-04 21:23:50.472][d2c2][client.nativehelpers][src/nativehelpers.cpp:189][info] requested alpha: -1 - actual alpha: -1
+[2024-11-04 21:23:50.739][d2c2][client.nativetrayqt][src/linux/nativetrayqt.cpp:433][info] guess tray icon QRect(3839,60 1x1) with screen QRect(1920,0 1920x1080) and work area QRect(1920,60 1920x1020)
+[2024-11-04 21:23:50.755][d2c2][client.linux_scaler][src/linux/linux_scaler.cpp:223][info] Scale factors:
+[2024-11-04 21:23:50.755][d2c2][client.linux_scaler][src/linux/linux_scaler.cpp:224][info]  - PIA: 0
+[2024-11-04 21:23:50.755][d2c2][client.linux_scaler][src/linux/linux_scaler.cpp:225][info]  - Qt: 0
+[2024-11-04 21:23:50.755][d2c2][client.linux_scaler][src/linux/linux_scaler.cpp:226][info]  - Qt(screen): 0
+[2024-11-04 21:23:50.755][d2c2][client.linux_scaler][src/linux/linux_scaler.cpp:227][info]  - Xft.dpi: 0
+[2024-11-04 21:23:50.755][d2c2][client.trayiconmanager][src/trayiconmanager.cpp:121][debug] Tray icon: QRect(3839,60 1x1) - Screen bound: QRect(1920,0 1920x1080) - work area: QRect(1920,0 1920x1080) - scale: 1
+[2024-11-04 21:23:50.787][d2c2][client.window][src/nativeacc/window.cpp:355][info] window "Private Internet Access" focus 0 -> 1
+[2024-11-04 21:23:52.543][d2c2][qml][qrc:/components/vpnconnection/VpnConnection.qml:95][info] Requesting to connect to current location
+[2024-11-04 21:23:52.543][d2c2][common.jsonrpc][src/jsonrpc.cpp:322][info] Sending request QJsonValue(undefined) to invoke RPC method "connectVPN"
+[2024-11-04 21:23:53.736][d2c2][qml][qrc:/components/main.qml:140][info] release window resources: dashboard
+[2024-11-04 21:23:53.764][d2c2][qml][qrc:/components/core/LoaderCleaner.qml:31][info] Clean up again in 6000 ms
+[2024-11-04 21:23:53.878][d2c2][client.window][src/nativeacc/window.cpp:355][info] window "Settings" focus 0 -> 1
+[2024-11-04 21:23:53.878][d2c2][client.window][src/nativeacc/window.cpp:355][info] window "Private Internet Access" focus 1 -> 0
+[2024-11-04 21:23:54.802][d2c2][client.client][src/client.cpp:434][debug] Applying settings: {"connectOnLaunch":true}
+[2024-11-04 21:23:54.802][d2c2][common.json][src/json.cpp:391][debug] Successfully wrote clientsettings.json
+[2024-11-04 21:23:56.880][d2c2][qml][qrc:/components/main.qml:140][info] release window resources: dashboard
+[2024-11-04 21:23:56.888][d2c2][qml][qrc:/components/core/LoaderCleaner.qml:31][info] Clean up again in 6000 ms
+[2024-11-04 21:23:57.086][d2c2][qt.qml.context][??:0][warning] qrc:/components/settings/inputs/CheckboxInput.qml:128:5 Parameter "event" is not declared. Injection of parameters into signal handlers is deprecated. Use JavaScript functions with formal parameters instead.
+[2024-11-04 21:23:57.258][d2c2][client.window][src/nativeacc/window.cpp:355][info] window "Settings" focus 1 -> 0
+[2024-11-04 21:23:57.258][d2c2][client.window][src/nativeacc/window.cpp:355][info] window "Private Internet Access" focus 0 -> 1
+[2024-11-04 21:24:00.239][d2c2][qml][qrc:/components/main.qml:140][info] release window resources: dashboard
+[2024-11-04 21:24:00.247][d2c2][qml][qrc:/components/core/LoaderCleaner.qml:31][info] Clean up again in 6000 ms
+[2024-11-04 21:24:06.241][d2c2][qml][qrc:/components/main.qml:140][info] release window resources: dashboard
+[2024-11-04 21:24:06.248][d2c2][qml][qrc:/components/core/LoaderCleaner.qml:36][info] Second clean up completed
+[2024-11-04 21:34:27.155][d2c2][common.unixsignalhandler][src/posix/unixsignalhandler.cpp:168][info] Received signal 1 from pid 53650
+[2024-11-04 21:34:27.155][d2c2][default][??:0][warning] The X11 connection broke (error 1). Did the X11 server die?
+[2024-11-04 21:34:27.224][dd1d][common.logging][src/builtin/logging.cpp:314][info] Initializing LoggerPrivate
+[2024-11-04 21:34:27.224][dd1d][common.logging][src/builtin/logging.cpp:360][info] No debug.txt found; using default filter rules
+[2024-11-04 21:34:27.224][dd1d][client.linux_shutdown][src/linux/linux_shutdown.cpp:70][info] Connected to daemon, notifying exit
+[2024-11-04 21:34:27.225][dd1d][common.jsonrpc][src/jsonrpc.cpp:322][info] Sending request QJsonValue(double, 1) to invoke RPC method "notifyClientDeactivate"
+[2024-11-04 21:34:27.225][dd1d][common.jsonrpc][src/jsonrpc.cpp:409][info] Request 1 succeeded
+[2024-11-04 21:34:27.225][dd1d][client.linux_shutdown][src/linux/linux_shutdown.cpp:77][info] Notification completed
